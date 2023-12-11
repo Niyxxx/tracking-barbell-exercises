@@ -150,10 +150,10 @@ data_merged.columns = [
     "gyr_x",
     "gyr_y",
     "gyr_z",
+    "participant",
     "label",
     "category",
-    "participant",
-    "set"
+    "set",
 ]
 
 # --------------------------------------------------------------
@@ -164,16 +164,16 @@ data_merged.columns = [
 # Gyroscope:        25.000Hz
 
 sampling = {
-    'acc_x': "mean",
-    'acc_y': "mean",
-    'acc_z': "mean",
-    'gyr_x': "mean",
-    'gyr_y': "mean",
-    'gyr_z': "mean", 
-    'label': "last",
-    'category': "last",
-    'participant': "last",
-    'set': "last"
+    "acc_x":"mean",
+    "acc_y":"mean",
+    "acc_z":"mean",
+    "gyr_x":"mean",
+    "gyr_y":"mean",
+    "gyr_z":"mean",
+    "participant":"last",
+    "label":"last",
+    "category":"last",
+    "set":"last",
 }
 
 
